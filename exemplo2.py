@@ -9,14 +9,14 @@ altura = 800
 tela = pygame.display.set_mode((largura, altura))
 pygame.display.set_caption("Desvie do bloco!")
 
-rosa = (20, 5, 0)
+rosa = (205, 20, 90)
 laranja = (200, 100, 0)
 preto = (0, 0, 0)
 branco = (255, 255, 255)
 vermelho = (255, 0, 0)
 azul = (0, 110, 200)
 verde = (0, 255, 0)
-roxo = (150, 10, 100)
+roxo = (150, 10, 10)
 
 player_x = largura // 2
 player_y = altura - 50
@@ -142,7 +142,7 @@ while rodando:
       pygame.draw.rect(tela, roxo, obstaculo3)
       pygame.draw.rect(tela, laranja, obstaculo4)
       pygame.draw.rect(tela, rosa, obstaculo5)
-      texto = fonte.render(f"Pontos: {pontos+pontos2+pontos3,pontos4,pontos5}", True, branco)
+      texto = fonte.render(f"Pontos: {pontos+pontos2+pontos3+pontos4+pontos5}", True, branco)
       tela.blit(texto, (10, 10))
 
       pygame.display.update()
