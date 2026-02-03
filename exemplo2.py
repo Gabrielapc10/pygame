@@ -25,31 +25,31 @@ player_tam = 40
 
 obs_x = random.randint(0, largura - 40)
 obs_y = - 40
-obs_vel = 5
+obs_vel = 1
 obs_tam = 20
 pontos = 0
 
 obs2_x = random.randint(0, largura - 40)
 obs2_y = - 50
-obs2_vel = 10
+obs2_vel = 2
 obs2_tam = 30
 pontos2 = 0
 
 obs3_x = random.randint(0, largura - 40)
 obs3_y = - 60
-obs3_vel = 15
+obs3_vel = 3
 obs3_tam = 40
 pontos3 = 0
 
 obs4_x = random.randint(0, largura - 40)
 obs4_y = - 70
-obs4_vel = 20
+obs4_vel = 4
 obs4_tam = 50
 pontos4 = 0
 
 obs5_x = random.randint(0, largura - 40)
 obs5_y = - 80
-obs5_vel = 25
+obs5_vel = 5
 obs5_tam = 60
 pontos5 = 0
 
